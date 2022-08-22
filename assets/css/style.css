@@ -8,6 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('fonts/dancing-script.dancingscriptot-webfont.woff2') format('woff2'),
+         url('fonts/dancing-script.dancingscriptot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -47,7 +55,7 @@ h6 {
 #countdown .section-head span {
     display: block;
     position: relative;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'dancing_script_otregular';
       font-style: italic;
     font-weight: 400;
     font-size: 18px;
@@ -56,11 +64,11 @@ h6 {
 }
 #countdown .section-head h4 {
     position: relative;
-    color: #0d0d0d;
-   font-family:  "Segoe Script";
+    color: #000000;
+     font-family: 'dancing_script_otregular';
    font-weight: 100;
     font-style: italic;
-    font-size: 40px;
+    font-size: 44px;
     margin-bottom: 0;
 }
 #countdown .section-head p {
@@ -80,7 +88,7 @@ h6 {
     font-size: 15px;
     list-style-type: none;
     padding: 15px;
-    color: #0d0d0d;
+    color: #000000;
     line-height: 3em;
     text-align: center;
     text-transform: uppercase;
@@ -105,10 +113,9 @@ h6 {
 .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
-.bg-fixed {
-    background-attachment: fixed;
-}
+
 .bg-cover {
     background-size: contain !important;
 }
@@ -504,12 +511,11 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'dancing_script_otregular';
+  font-size: 300%;
+
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #3b434a;
   position: relative;
   z-index: 2;
 }
@@ -527,11 +533,7 @@ section {
   line-height: 0;
 }
 
-.section-title p {
-  margin-bottom: 0;
-  position: relative;
-  z-index: 2;
-}
+
 
 @media (max-width: 575px) {
   .section-title h2 {
@@ -615,86 +617,15 @@ section {
   background-color: #f6f6f6;
 }
 
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #3b434a;
-  text-transform: uppercase;
-}
+.about .content p {
+font-family: 'Cormorant Garamond', serif;
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: #ffb727;
-  line-height: 0;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-.about .content .count-box {
-  width: 100%;
-}
-
-.about .content .count-box i {
-  display: block;
-  font-size: 36px;
-  color: #ffb727;
-  float: left;
-  line-height: 0;
-}
-
-.about .content .count-box span {
-  font-size: 36px;
-  line-height: 30px;
-  display: block;
-  font-weight: 700;
-  color: #3b434a;
-  margin-left: 50px;
-}
-
-.about .content .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #5d6a75;
-}
-
-.about .content .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #5d6a75;
-  font-size: 15px;
-  font-family: "Satisfy", serif;
-  transition: ease-in-out 0.3s;
-}
-
-.about .content .count-box a:hover {
-  color: #82909c;
 }
 
 .about .image {
   background: url("../img/merimaiamar.jpg") center center no-repeat;
   background-size: cover;
-  border:6px solid #f6cdcd;
+  border:1px solid #000000;
   min-height: 500px;
   height:600px;
 }
@@ -1195,29 +1126,6 @@ section {
   margin-bottom: 0;
 }
 
-.contact .social-links {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-}
-
-.contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  color: #687683;
-  line-height: 1;
-  margin: 0 8px;
-  transition: 0.3s;
-  padding: 14px;
-  border-radius: 50px;
-  border: 1px solid #dde1e4;
-}
-
-.contact .social-links a:hover {
-  color: #fff;
-  border-color: #ffb727;
-  background: #ffb727;
-}
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
