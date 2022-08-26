@@ -619,7 +619,7 @@ section {
 }
 
 .vjencanje .content p {
-font-family: 'Cormorant Garamond', serif;
+font-family: "Vijaya";
 
 }
 
@@ -690,8 +690,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .raspored p
 {
-  font-family: 'Cormorant Garamond', serif;
-
+  font-family: "Vijaya";
 }
 
 /*--------------------------------------------------------------
@@ -1202,6 +1201,22 @@ font-family: 'Cormorant Garamond', serif;
   }
 }
 
+.poruka .image {
+  background: url("../img/merimaiamar.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  border:5px solid #f6cdcd;
+}
+
+.poruka
+{
+  background-color:#f5efeb;
+}
+
+.poruka .content p {
+font-family: "Vijaya";
+
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
