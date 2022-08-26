@@ -64,7 +64,7 @@ h6 {
 }
 #countdown .section-head h4 {
     position: relative;
-    color: #000000;
+    color: #FFFFFF;
      font-family: 'dancing_script_otregular';
    font-weight: 100;
     font-style: italic;
@@ -72,7 +72,7 @@ h6 {
     margin-bottom: 0;
 }
 #countdown .section-head p {
-        color: #000000;
+        color: #FFFFFF;
     font-size: 10px;
     margin-bottom: 0;
 }
@@ -88,7 +88,7 @@ h6 {
     font-size: 15px;
     list-style-type: none;
     padding: 15px;
-    color: #000000;
+    color: #FFFFFF;
     line-height: 3em;
     text-align: center;
     text-transform: uppercase;
@@ -104,21 +104,22 @@ h6 {
     letter-spacing: -1px;
 }
 
-@media (max-width: 992px) {
-    .bg-fixed {
-        background-attachment: scroll !important;
-    }
-}
-
 .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
-    
+}
+.bg-fixed {
+    background-attachment: fixed;
 }
 
-.bg-cover {
-    background-size: contain !important;
+@media (max-width: 992px) {
+.bg-fixed {
+    background-attachment: scroll !important;
 }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -130,7 +131,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb727;
+  background: #000000;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -144,7 +145,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffc550;
+  background: #000000;
   color: #fff;
 }
 
@@ -296,7 +297,7 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -402,7 +403,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100vw;
+  width: auto;
   height: 100vh;
   background: url("../img/bg.png");
   background-size: cover;
@@ -513,7 +514,6 @@ section {
 .section-title h2 {
   font-family: 'dancing_script_otregular';
   font-size: 300%;
-
   margin-bottom: 20px;
   padding-bottom: 0;
   position: relative;
@@ -531,6 +531,7 @@ section {
   font-size: 52px;
   text-transform: uppercase;
   line-height: 0;
+  opacity:0.5;
 }
 
 
@@ -609,25 +610,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Me
+# Vjencanje
 --------------------------------------------------------------*/
 
-.about
+.vjencanje
 {
-  background-color: #f6f6f6;
+  background-color: #f4e4e4;
 }
 
-.about .content p {
+.vjencanje .content p {
 font-family: 'Cormorant Garamond', serif;
 
-}
-
-.about .image {
-  background: url("../img/merimaiamar.jpg") center center no-repeat;
-  background-size: cover;
-  border:1px solid #000000;
-  min-height: 500px;
-  height:600px;
 }
 
 
@@ -665,74 +658,31 @@ font-family: 'Cormorant Garamond', serif;
 
 
 /*--------------------------------------------------------------
-# My Services
+# Protokol
 --------------------------------------------------------------*/
 .protokol
 {
-  background-color: #f6f6f6;
+  background-color:#f4e4e4;
 }
-.services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-  border: 1px solid #fff;
+/*---------------------------------------------------------
+# Raspored sjedenja
+--------------------------------------------------------------*/
+.raspored
+{
+  background-color: #FFFFFF;
 }
+.raspored p
+{
+  font-family: 'Cormorant Garamond', serif;
 
-.services .icon {
-  margin: 0 auto 20px auto;
-  padding-top: 17px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 72px;
-  height: 72px;
-  background: #fff4df;
-}
-
-.services .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #ffb727;
-}
-
-.services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: #111;
-  transition: 0.3s;
-}
-
-.services .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #ffb727;
-}
-
-.services .icon-box:hover .title a {
-  color: #ffb727;
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+  # Galerija
 --------------------------------------------------------------*/
-.testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
+.galerija
+{
+  background-color:#f4e4e4;
 }
 
 .testimonials::before {
