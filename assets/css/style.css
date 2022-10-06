@@ -672,6 +672,26 @@ section {
   font-family: Garamond, serif;
 }
 
+.raspored .swiper-pagination {
+  bottom: 5px;
+  position: absolute;
+}
+
+.raspored .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background-color: rgba(124, 124, 124, 0.4);
+}
+
+.raspored .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ECC0C0;
+}
+
+.raspored .picture {
+  border-radius: 10%;
+}
+
 .galerija
 {
   background-color:#f4e4e4;
